@@ -11,3 +11,9 @@
 *.zip
 *.tar.gz
 *.rar
+
+#Build folder
+build/
+
+#vscode settings
+.vscode/

@@ -5,6 +5,7 @@ mainClassName = 'hello.HelloWorld'
 
 repositories {
     mavenCentral()
+    maven { url  "http://dl.bintray.com/andimarek/graphql-java" }
 }
 
 jar {
@@ -17,5 +18,7 @@ targetCompatibility = 1.8
 
 dependencies {
     compile "com.sparkjava:spark-core:2.7.1"
-    compile "org.mongodb:mongodb-driver-async:3.6.3"
+    compile "com.graphql-java:graphql-java:6.0"
+    compile "com.graphql-java:graphql-java-tools:4.3.0"
+    compile "org.slf4j:slf4j-simple:1.6.2"
 }

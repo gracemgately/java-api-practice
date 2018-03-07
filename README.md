@@ -1,6 +1,6 @@
-## Hello, Java (and Spark) (and MongoDB)
+## Hello, Java (and Spark) (and GraphQL)
 
-Some practice in creating a working Java API interface connected to a MongoDB database built with the MongoDB Java Driver.
+Some practice in creating a working Java API interface with GraphQL.
 
 **Tools & Libraries**
-Java, Gradle, Spark, MongoDB 
+Java, Gradle, Spark, GraphQL-Java
